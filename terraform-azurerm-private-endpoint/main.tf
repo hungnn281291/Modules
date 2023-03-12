@@ -17,7 +17,6 @@ resource "azurerm_private_endpoint" "this" {
       name               = var.ipconfiguration_name
       private_ip_address = var.private_ip_address
       subresource_name   = var.subresource_name
-      member_name        = var.member_name
     }
   }
 
